@@ -45,7 +45,7 @@ Go
 			B (1)
 			C (2)
 		)
-		
+
 	functions
 		data type
 		multiple returns
@@ -71,21 +71,20 @@ Go
 				switch on types
 					argument as empty interface x interface {} void pointer
 					t := x.(type)
-	
+
 	Looping
 		condition
 		break
 		continue
 		clause(init;cond;post)
 		Range
-			Array/slice
+			Array/slice/map
 				index, value for each index
 			String
 				rune
-			Map
-				key, value
 			Channel
 				data in channel
+
 	Maps
 		key to have eqality operator defined
 		reference types
@@ -94,6 +93,19 @@ Go
 		create, update, delete
 		check for existance
 			value, exists = map[key]
+
+	Slices
+	Methods/Interface
+	Concurrency
+		go routines
+		channel
+			set chan <- value
+			get value <- chan
+		make(chann type)
+		range
+		select
+		
+
 	
 				
 		
